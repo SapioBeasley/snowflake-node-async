@@ -12,10 +12,10 @@ Service to interact with tables within snowflake. Snowflake does not function as
 
 ## Usage
 Instanciate the service with your credentials
-`const snowflakeService = new SnowflakeService({ account, username, password })`
+```const snowflakeService = new SnowflakeService({ account, username, password })```
 
 After instantiating this service with your credentials, you are ready to connect.
-`await snowflakeService.connectAsync()`
+```await snowflakeService.connectAsync()```
 
 Finally you can make requests to your databases. In this implementation, bindings are required. Bingings are passed as an array. SqlText represents the query you are requesting data of.
 ```
