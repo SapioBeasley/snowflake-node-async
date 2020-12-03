@@ -4,13 +4,11 @@ Just making snowflake sdk async
 import { Connection, createConnection, Statement } from "snowflake-sdk";
 
 ConnectionConfig [Learn More]('https://docs.snowflake.com/en/user-guide/nodejs-driver-use.html#required-connection-options')
-|   |   |   |   |   |
-|---|---|---|---|---|
-|account: string Account name plus region used to log in.   |   |   |   |   |
-|username: string well .. username   |   |   |   |   |
-|   |   |   |   |   |
-  -  
-  -   - password: string and of course .. password
+|Key |type |description |
+|---|---|---|
+|account |string |Account name plus region used to log in. |
+|username |string |well .. username |
+|password |string |and of course .. password |
 
 Service to interact with tables within snowflake. Snowflake does not function async by default, so this is an attempt to make that happen
 
