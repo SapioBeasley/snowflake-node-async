@@ -1,8 +1,6 @@
 # snowflake-node-async
 Just making snowflake sdk async
 
-import { Connection, createConnection, Statement } from "snowflake-sdk";
-
 ConnectionConfig [Learn More]('https://docs.snowflake.com/en/user-guide/nodejs-driver-use.html#required-connection-options')
 |Key |type |description |
 |---|---|---|
