@@ -1,7 +1,7 @@
 # snowflake-node-async
 Just making snowflake sdk async
 
-ConnectionConfig [Learn More]('https://docs.snowflake.com/en/user-guide/nodejs-driver-use.html#required-connection-options')
+ConnectionConfig [Learn More](https://docs.snowflake.com/en/user-guide/nodejs-driver-use.html#required-connection-options)
 |Key |type |description |
 |---|---|---|
 |account |string |Account name plus region used to log in. |
