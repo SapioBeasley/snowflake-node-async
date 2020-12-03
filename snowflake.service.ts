@@ -28,7 +28,7 @@ export class SnowflakeService {
    *
    * `await snowflakeService.connectAsync()`
    */
-  connectAsync = () => new Promise((resolve, reject) => {
+  connectAsync = () => new Promise((resolve, reject): void => {
     this.connection.connect((err, conn) => {
       if (err) reject(err.message)
       resolve(conn)
